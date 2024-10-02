@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+
+div.container {
+  width: 414px;
+  height: 727px;
+
+  border: 1px solid rgb(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  margin: 0 auto;
+}
+
+p.title-check {
+  text-align: center;
+
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+div.input-container {
+  margin: 0 auto;
+}
+
+div.input-paragraph,
+.lotto-paragragh {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+
+  margin-left: 16px;
+}
+
+.input-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+input.input-placeholder {
+  width: 294px;
+  height: 24px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+
+  border: 1px solid #8B8B8B;
+  border-radius: 4px;
+  
+  padding: 8px;
+
+  margin-bottom: 20px;
+}
+
+.btn-buy {
+  width: 56px;
+  height: 36px;
+
+  color: white;
+  background-color: #4E5BA6;
+  border: none;
+  border-radius: 4px;
+
+  margin-left: 16px;
+
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+ul.li-container {
+  padding-left: 12px;
+  margin: 0;
+}
+
+li.number-list {
+  list-style-type: none;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.number-list::before {
+  content: "🎫";
+  margin-right: 5px;
+  font-size: 34px;
+}
+
+div.discribe {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+
+  margin-top: 12px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+div.title-winning-num {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+
+  margin-left: 16px;
+}
+
+div.title-bonus-num {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 245px;
+}
+
+div.box-container {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+div.box-bonus-container {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+span.box-winning-num {
+  display: inline-block;
+  width: 34px;
+  height: 36px;
+
+  border: 1px solid #B4B4B4;
+  border-radius: 4px;
+
+  margin-left: 8px;
+  margin-top: 12px;
+}
+
+div.btn-result-container {
+  display: flex;
+  justify-content: center;
+}
+
+button.btn-result {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+
+  width: 382px;
+  height: 36px;
+
+  border: none;
+  border-radius: 4px;
+
+  background-color: #4E5BA6;
+  color: white;
+
+  margin-top: 25px;
+}
