@@ -44,7 +44,7 @@ body{
     margin: 0;
     width: 90%;
     padding: 52px 16px 28px 16px;
-    align-self: center;
+    text-align: center;
   }
 }
 
