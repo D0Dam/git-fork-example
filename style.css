@@ -1,0 +1,121 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  margin: 0;   
+}
+
+.header{
+  height: 6%;
+  background-color: #4E5BA6;
+}
+
+.header-title{
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 9%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 86%;
+  margin:0;
+  padding: 20px;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.core{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: auto;
+  width: 28%;
+  min-width: 350px;
+  border: solid 1px rgb(197, 205, 213);
+}
+
+.core h1{
+  margin: 0;
+  width: 90%;
+  padding: 7% 2%;
+  align-self: center;
+}
+
+.buy{
+  width: 100%;
+}
+
+.buy-bar{
+  display: flex;
+  align-items: center;
+}
+
+#buy-input{
+  width: 80%;
+  padding: 4px;
+  margin: 7px;
+  font-size: 15px;
+}
+
+#buy-btn{
+  background-color: #4E5BA6;
+  color: white;
+  width: 40px;
+  height: 28px;
+  font-size: 15px;
+  padding: 0;
+  margin: 7px;
+  border-radius: 1px;
+}
+
+#buy-label{
+  margin: 0;
+}
+
+.lotto-list-box{
+  list-style-type: none;
+}
+
+.inquiry-input-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inquiry-winning,
+.inquiry-bonus{
+  padding-right: 10px;
+}
+
+.inquiry-winning input,
+.inquiry-bonus input{
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+}
+
+#check{
+  margin-top: 10px;
+  padding: 5px;
+  width: 100%;
+  background-color: #4E5BA6;
+  color: white;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7.5%;
+  border-top: solid 1px #B4B4B4;
+  font-size: 14px;
+  color: #4E5BA6;
+}
