@@ -1,0 +1,221 @@
+body {
+    margin: 0px;
+    background-color: #FCFCFD;
+    height: 1024px;
+    width: 1440px;
+    font-family: "Roboto";
+}
+
+#top_box {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    width: 140px;
+    color: #FFFFFF;
+    background-color: #4E5BA6;
+    display: block;
+    padding: 14px 1170px 14px 130px;
+}
+
+#main_content {
+    background-color: #FFFFFF;
+    margin: 77px 513px 0px;
+    width: 414px;
+    height: 727px;
+    display: block;
+    border: 1px solid #0000001F;
+    border-radius: 4px;
+}
+
+#main_title {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    width: 382px;
+    line-height: 24px;
+    margin: 52px 16px 0px;
+}
+
+#main_input_box {
+    margin: 28px 16px 0px;
+    width: 382px;
+    height: 64px;
+    display: flex;
+}
+
+#main_input_label_box {
+    display: inline-block;
+    width: 310px;
+    height: 64px;
+}
+
+#main_input_label {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    width: 310px;
+    display: inline;
+}
+
+#main_input {
+    border: 1px solid #B4B4B4;
+    border-radius: 4px;
+    padding: 7px 7px 3px;
+    width: 294px;
+    height: 24px;
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#main_input_button {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    background-color: #4E5BA6;
+    padding: 7px 7px 5px 7px;
+    width: 56px;
+    height: 36px;
+    border: 0px solid;
+    border-radius: 4px;
+    margin-left: 16px;
+    margin-top: 28px;
+}
+
+#middle_text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 28px 16px 0px;
+}
+
+#num_box {
+    margin: 4px 16px 0px;
+}
+
+.lotto_num_box {
+    margin-top: 4px;
+    height: 36px;
+    display: flex;
+}
+
+.lotto_icon {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+}
+
+.num {
+    display: inline;
+    font-size: 15px;
+    font-weight: 400;
+    height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 0px;
+    color: #000000DE;
+    margin-top: 7px;
+}
+
+#lotto_input_box {
+    display: block;
+    margin: 24px 16px 0px;
+    width: 382px;
+    height: 104px;
+}
+
+#lotto_text_1 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#lotto_box {
+    display: flex;
+    margin-top: 12px;
+    width: 382px;
+    height: 68px;
+}
+
+#lotto_winning_box {
+    height: 68px;
+    width: 244px;
+}
+
+#lotto_bonus_box {
+    margin-left: 62px;
+    height: 68px;
+    width: 76px;
+}
+
+#lotto_winning_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#lotto_bonus_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+#lotto_winning_input_box {
+    width: 244px;
+    height: 36px;
+    margin-top: 8px;
+}
+
+.winning_input {
+    box-sizing: border-box;
+    height: 36px;
+    width: 34px;
+    margin-right: 3px;
+    border: 1px solid #B4B4B4;
+    border-radius: 4px;
+}
+
+#bonus_input {
+    margin-top: 8px;
+    box-sizing: border-box;
+    margin-left: 42px;
+    height: 36px;
+    width: 34px;
+    border: 1px solid #B4B4B4;
+    border-radius: 4px;
+}
+
+#result_button {
+    margin: 27px 16px 0px;
+    background-color: #4E5BA6;
+    color: #FFFFFF;
+    width: 382px;
+    height: 36px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+}
+
+#source {
+    margin-top: 77px;
+    padding: 32px 607px 32px 607px;
+    width: 226px;
+    height: 16px;
+    border-top: 1px solid #4E5BA633;
+    color: #4E5BA6;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+}
