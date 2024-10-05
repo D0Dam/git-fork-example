@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .lotto-input{
@@ -10,7 +11,6 @@ body {
   border: 1px solid #b4b4b4;
   border-radius: 4px;
 
-  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: regular;
 }
@@ -26,7 +26,6 @@ body {
   padding: 10px;
   cursor: pointer;
   
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
   color: white;
@@ -40,7 +39,6 @@ header {
 }
 
 #header-title {
-  font-family: "Roboto", sans-serif;
   color: white;
   font-size: 24px;
   font-weight: extra-bold;
@@ -68,7 +66,6 @@ main {
 
 #title {
   display: flex;
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: semi-bold;
   margin: 0;
@@ -87,7 +84,6 @@ main {
 
 #input-title {
   display: flex;
-  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: regular;
 }
@@ -116,7 +112,6 @@ main {
   gap: 8px;
 
   & > p {
-    font-family: "Roboto", sans-serif;
     display: flex;
     font-size: 14px;
     margin: 0;
@@ -124,7 +119,6 @@ main {
   }
 
   & > ul {
-    font-family: "Roboto", sans-serif;
     display: flex;
     height: 276px;
     overflow: scroll;
@@ -136,7 +130,6 @@ main {
 
     & > li {
       display: flex;
-      font-family: "Roboto", sans-serif;
       gap: 4px;
       width: 100%;
       padding: 4px 0px;
@@ -152,7 +145,6 @@ main {
   & > div {
     display: flex;
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
     font-weight: regular;
   }
 }
@@ -165,7 +157,6 @@ main {
 
   & > div {
     display: flex;
-    font-family: "Roboto", sans-serif;
     margin-top: 0px;
     margin-bottom: 8px;
     font-size: 15px;
@@ -215,7 +206,6 @@ footer{
     display: flex;
     font-size: 15px;
     color: #4E5BA6;
-    font-family: "Roboto", sans-serif;
     font-weight: bold;
   }
 }
