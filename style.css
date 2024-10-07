@@ -61,6 +61,11 @@ body {
   align-items: center;
 }
 
+.buy-bar input[type="number"]::-webkit-outer-spin-button,
+.buy-bar input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 #buy-input {
   width: 310px;
   padding: 7px;
@@ -112,10 +117,16 @@ body {
   justify-content: space-between;
 }
 
+.inquiry-input input[type="number"]::-webkit-outer-spin-button,
+.inquiry-input input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 .inquiry-input input {
   width: 20px;
   height: 20px;
-  font-size: 15px;
+  font-size: 20px;
+  text-align: center;
 }
 
 #check {
